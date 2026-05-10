@@ -16,7 +16,7 @@ VXLAN macht immer dann Sinn, wenn klassische VLANs an ihre Grenzen stoßen. Das 
 
 ##3. Vergleich VXLAN vs. VLAN
 
-"Tabelle_1" siehe Abbildung
+![Tabelle 1](Tabelle_1.png)
 
 ##4. Technische Funktionsweise
    
@@ -27,6 +27,8 @@ VXLAN basiert auf dem Prinzip eines Overlay-Netzwerks: Ein virtuelles Netzwerk w
         Underlay: Das physische IP-Netzwerk (Layer 3), das die eigentliche Datenübertragung übernimmt
 
 Ein VXLAN-Paket setzt sich aus mehreren Protokollschichten zusammen, die den eigentlichen Ethernet-Frame kapseln. Der VXLAN-Header umfasst dabei 8 Byte und enthält zentrale Informationen zur Steuerung und Identifikation der Verbindung.
+
+![Abbildung 1](Abbildung_1.png)
  
 Abbildung 1: https://ausbildung-in-der-it.de/lexikon/vxlan
 
@@ -47,6 +49,7 @@ Im Gegensatz zu klassischen Netzwerken nutzen physische VXLAN-Infrastrukturen me
 
 Das folgende Beispiel veranschaulicht, wie VXLAN-Kommunikation zwischen zwei Hosts über ein IP-Netzwerk abläuft:
 
+![Abbildung 2](Abbildung_2.png)
  
 Abbildung 2: https://www.digitaltut.com/vxlan-tutorial/2
 
