@@ -25,7 +25,7 @@ Zusätzlich wird ein JSON API Endpoint bereitgestellt.
 ### HTML Website
 
 ```text
-http://89.145.160.189
+z.B. http://89.145.160.189
 ```
 
 Die Website zeigt technische Informationen der VM an.
@@ -43,7 +43,7 @@ Beispiele:
 ### JSON API
 
 ```text
-http://89.145.160.189/api/
+z.B. http://89.145.160.189/api/
 ```
 
 Der API Endpoint liefert dieselben Informationen im JSON Format.
