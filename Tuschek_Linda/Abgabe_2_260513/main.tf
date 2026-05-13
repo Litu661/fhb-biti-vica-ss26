@@ -20,7 +20,7 @@ resource "exoscale_security_group_rule" "http" {
   security_group_id = exoscale_security_group.vm_security_group.id
 
   type  = "INGRESS"
-  proto = "TCP"
+  protocol = "TCP"
 
   start_port = 80
   end_port   = 80
@@ -32,7 +32,7 @@ resource "exoscale_security_group_rule" "ssh" {
   security_group_id = exoscale_security_group.vm_security_group.id
 
   type  = "INGRESS"
-  proto = "TCP"
+  protocol = "TCP"
 
   start_port = 22
   end_port   = 22
