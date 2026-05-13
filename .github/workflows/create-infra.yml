@@ -9,7 +9,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: Tuschek_Linda/Abgabe_2_260513
+        working-directory: Abgabe_2_260513
 
     steps:
       - name: Checkout repository
