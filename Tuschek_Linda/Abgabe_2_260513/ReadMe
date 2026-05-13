@@ -1,1 +1,29 @@
+# Abgabe 2 - Automatisierte Exoscale Infrastruktur
 
+## Ziel der Lösung
+
+Diese Lösung erstellt automatisiert eine Ubuntu VM in Exoscale mithilfe von OpenTofu/Terraform und GitHub Actions.
+
+Die VM wird automatisch mit CloudInit konfiguriert und stellt eine Website mit technischen Informationen über die VM bereit.
+
+Zusätzlich wird ein JSON API Endpoint bereitgestellt.
+
+---
+
+## Verwendete Technologien
+
+- Exoscale
+- OpenTofu / Terraform
+- GitHub Actions
+- CloudInit
+- Ubuntu 22.04
+- Nginx
+
+---
+
+## Bereitgestellte Endpunkte
+
+### HTML Website
+
+```text
+http://<VM-IP>
