@@ -40,6 +40,10 @@ resource "exoscale_security_group_rule" "ssh" {
   cidr = "0.0.0.0/0"
 }
 
+data "exoscale_template" "ubuntu" {
+  zone = "de-fra-1"
+  name = "Linux Ubuntu 22.04 LTS 64-bit"
+}
 resource "exoscale_compute_instance" "vm" {
   name        = "vm-info-vm"
   zone        = "de-fra-1"
