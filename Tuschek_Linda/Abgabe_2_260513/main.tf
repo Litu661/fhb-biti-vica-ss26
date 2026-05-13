@@ -48,7 +48,7 @@ resource "exoscale_compute_instance" "vm" {
   name        = "vm-info-vm"
   zone        = "de-fra-1"
   type        = "standard.micro"
-  template_id = "Linux Ubuntu 22.04 LTS 64-bit"
+  template_id = data.exoscale_template.ubuntu.id
 
   disk_size = 10
 
