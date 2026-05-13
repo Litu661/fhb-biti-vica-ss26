@@ -34,6 +34,6 @@ jobs:
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add -f terraform.tfstate terraform.tfstate.backup || true
+          git add -f terraform.tfstate || true
           git commit -m "chore: update terraform state" || echo "No state changes"
           git push
