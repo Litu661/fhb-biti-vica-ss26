@@ -13,7 +13,7 @@ provider "exoscale" {
 }
 
 resource "exoscale_security_group" "vm_security_group" {
-  name = "vm-info-security-group-linda"
+  name = "vm-info-security-group-linda-2"
 }
 
 resource "exoscale_security_group_rule" "http" {
