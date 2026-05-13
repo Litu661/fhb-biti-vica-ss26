@@ -8,7 +8,6 @@ Die VM wird automatisch mit CloudInit konfiguriert und stellt eine Website mit t
 
 Zusätzlich wird ein JSON API Endpoint bereitgestellt.
 
----
 
 ## Verwendete Technologien
 
@@ -20,7 +19,6 @@ Zusätzlich wird ein JSON API Endpoint bereitgestellt.
 - Nginx
 - Bash
 
----
 
 ## Bereitgestellte Endpunkte
 
@@ -41,7 +39,6 @@ Beispiele:
 - Filesystem
 - Hypervisor
 
----
 
 ### JSON API
 
@@ -51,7 +48,6 @@ http://89.145.160.189/api/
 
 Der API Endpoint liefert dieselben Informationen im JSON Format.
 
----
 
 ## Infrastruktur
 
@@ -66,7 +62,6 @@ Folgende Komponenten werden automatisiert erstellt:
 - HTML Website
 - JSON API Endpoint
 
----
 
 ## GitHub Actions
 
@@ -85,7 +80,6 @@ Dieser Workflow:
 - erstellt die Infrastruktur
 - erstellt die VM
 
----
 
 ### Infrastruktur löschen
 
@@ -100,7 +94,6 @@ Dieser Workflow entfernt:
 - Security Groups
 - Terraform Ressourcen
 
----
 
 ## CloudInit
 
@@ -113,7 +106,6 @@ Dabei werden:
 - JSON Dateien erstellt
 - technische Informationen gesammelt
 
----
 
 ## Verwendung
 
@@ -123,7 +115,6 @@ Dabei werden:
 2. Actions öffnen
 3. Workflow „Create Exoscale Infrastructure“ starten
 
----
 
 ### Infrastruktur löschen
 
@@ -131,7 +122,6 @@ Dabei werden:
 2. Actions öffnen
 3. Workflow „Destroy Exoscale Infrastructure“ starten
 
----
 
 ## Screenshots
 
