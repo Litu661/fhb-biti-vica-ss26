@@ -8,8 +8,8 @@ terraform {
 }
 
 provider "exoscale" {
-  api_key    = var.exoscale_api_key
-  api_secret = var.exoscale_api_secret
+  key    = var.exoscale_api_key
+  secret = var.exoscale_api_secret
 }
 
 resource "exoscale_security_group" "vm_security_group" {
